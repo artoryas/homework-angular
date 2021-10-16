@@ -1,0 +1,25 @@
+@import '../../../variables';
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-weight: bold;
+    background: $colorSecondary;
+
+    .logo {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+
+        li{
+            list-style: none;
+            margin-left: 1rem;
+            cursor: pointer;
+        }
+    }
+}

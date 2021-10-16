@@ -1,0 +1,42 @@
+@import '../../variables';
+
+l1-navbar{
+    width: 100%;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+    aside {
+        width: 10%;
+    }
+    main {
+        background: $colorSecondary;
+        max-width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-weight: bold;
+        white-space: wrap;
+        padding: 20px;
+        h1{
+            color: $colorOrange;
+        }
+    }
+
+    .popular-topics {
+        li{
+            margin-top: 10px;
+            
+        }
+    }
+
+    .advertisement{
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
